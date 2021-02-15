@@ -14,6 +14,7 @@
       <button @click="deleteDish(dish.id)">DELETE</button>
     </td>
   </tr>
+  {{ totalDishes }}
   </table>
 </template>
 
